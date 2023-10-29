@@ -15,19 +15,61 @@
 
 .content {
   padding-top: 5rem;
+  color: white;
+  margin-left: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+
+  @media (max-width: 699px) {
+    margin-left: 0.5rem;
+  }
 
   &__title {
-    color: white;
     font-size: 3rem;
-    margin-left: 2rem;
+    font-weight: bold;
     margin-top: 2rem;
-    max-width: 35rem;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    max-width: 38rem;
+
 
     @media (max-width: 699px) {
-      margin-left: 0.5rem;
       max-width: 100%;
       font-size: 2rem;
+    }
+  }
+
+  &__sub-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
+    @media (max-width: 699px) {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+  }
+
+  &__sub-text {
+    font-size: 1rem;
+    margin-top: 2rem;
+
+    @media (max-width: 699px) {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__contact {
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    line-height: 2rem;
+    width: fit-content;
+    border-radius: 10px;
+
+    & a {
+      color: white;
+    }
+
+    @media (max-width: 699px) {
+      margin-top: 1rem;
     }
   }
 }

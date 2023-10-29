@@ -16,10 +16,15 @@
 
   &__logo-container {
     background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 0.5rem;
   }
 
   &__logo {
     height: 4.5rem;
+
+    @media (max-width: 699px) {
+      height: 3rem;
+    }
   }
 
   &__links {
