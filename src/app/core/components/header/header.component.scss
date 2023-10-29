@@ -1,0 +1,39 @@
+.header {
+  &__container {
+    display: flex;
+    position: absolute;
+    z-index: 9;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+
+    @media (max-width: 699px) {
+      width: calc(100% - 1rem);
+      padding: 0 0.5rem;
+    }
+  }
+
+  &__logo {
+    height: 4.5rem;
+  }
+
+  &__links {
+    display: flex;
+
+    & > div {
+
+      &:not(:last-child) {
+        margin-right: 2.5rem;
+
+        @media (max-width: 699px) {
+          margin-right: 1.5rem;
+        }
+      }
+
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
