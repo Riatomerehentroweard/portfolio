@@ -36,13 +36,23 @@
         margin-right: 2.5rem;
 
         @media (max-width: 699px) {
-          margin-right: 1.5rem;
+          margin-right: 0.75rem;
         }
       }
 
       color: white;
       font-weight: bold;
       cursor: pointer;
+    }
+  }
+
+  &__link {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+
+    @media (max-width: 699px) {
+      padding: 0.25rem;
     }
   }
 }

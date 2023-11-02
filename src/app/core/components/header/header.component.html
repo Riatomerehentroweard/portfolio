@@ -3,7 +3,10 @@
     <img src="/assets/images/logo_tiny.png" class="header__logo"/>
   </div>
   <div class="header__links">
-    <div *ngFor="let link of links" (click)="onLinkClicked(link)">
+    <div
+      *ngFor="let link of links"
+      class="header__link"
+      (click)="onLinkClicked(link)">
       {{link.label}}
     </div>
   </div>
