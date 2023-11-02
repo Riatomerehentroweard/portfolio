@@ -17,7 +17,7 @@ export class HeaderComponent {
 
   links: Link[] = [
     {label: 'Home', path: ['/', 'home'],},
-    {label: 'About', path: ['/', 'about'],},
+    {label: 'Portrait', path: ['/', 'about'],},
     {label: 'Blog', path: ['/', 'blog'],},
   ]
 

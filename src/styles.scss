@@ -12,3 +12,19 @@ body {
 * {
   font-size: 20px;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: justify;
+  hyphens: auto;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}

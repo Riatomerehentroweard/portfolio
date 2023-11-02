@@ -25,22 +25,6 @@
   padding: 0 1rem;
   text-align: center;
 
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    text-align: justify;
-    hyphens: auto;
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   @media (max-width: 699px) {
     margin-top: 25vh;
     min-height: 75vh;
