@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run generate:articles && ng serve",
-    "build": "ng build --base-href \"https://riatomerehentroweard.github.io/portfolio/\"",
+    "build": "ng build --base-href \"https://riatomerehentroweard.github.io/portfolio/\" && npm run generate:404",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "generate:articles": "node scripts/generate-all-articles.js"
+    "generate:articles": "node scripts/generate-all-articles.js",
+    "generate:404": "node scripts/copy-404.js"
   },
   "private": true,
   "dependencies": {
