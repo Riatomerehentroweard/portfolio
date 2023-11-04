@@ -6,7 +6,7 @@
       <div *ngFor="let p of article.content.paragraphs">
         <h2 *ngIf="p.title">{{p.title}}</h2>
         <p *ngIf="p.text">{{p.text}}</p>
-        <img *ngIf="p.image" [src]="p.image" [alt]="p.image_description" />
+        <img *ngIf="p.image" [src]="p.image" [alt]="p.image_description" class="img"/>
         <p *ngIf="p.image_description" class="img__description">{{p.image_description}}</p>
       </div>
     </div>

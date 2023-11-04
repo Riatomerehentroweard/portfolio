@@ -29,9 +29,13 @@
   }
 }
 
-.img__description {
-  font-style: italic;
-  margin-bottom: 2rem;
-  margin-top: 0.25rem;
-  color: #c2c2c2;
+.img {
+  width: 75vw;
+
+  &__description {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    margin-top: 0.25rem;
+    color: #c2c2c2;
+  }
 }
