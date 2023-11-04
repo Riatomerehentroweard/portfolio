@@ -2,11 +2,25 @@ import { Component } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Router} from "@angular/router";
 
+export interface ArticleParagraph {
+  title?: string;
+  text?: string;
+  image?: string;
+  image_description?: string;
+}
+
+export interface ArticleContent {
+  title: string;
+  bg_img: string;
+  paragraphs: ArticleParagraph[];
+}
+
 export interface Article {
   id: string;
   title: string;
   description: string;
   image: string;
+  content: ArticleContent;
 }
 
 @Component({
