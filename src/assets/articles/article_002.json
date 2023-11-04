@@ -1,0 +1,38 @@
+{
+  "id": "002",
+  "title": "Klone",
+  "description": "Der Klone in den Urner Alpen ist mit einer Höhe von 4546 m ü. M. der höchste Berg, der mit seiner kompletten Basis innerhalb der Schweiz liegt.",
+  "image": "dom.png",
+  "content": {
+    "title": "Besteigung des Walliser Doms",
+    "bg_img": "assets/images/mountain_001.jpg",
+    "paragraphs": [
+      {
+        "title": "Vorbereitung und Anreise"
+      },
+      {
+        "text": "Unser Abenteuer beginnt in den frühen Morgenstunden eines klaren Sommermorgens. Wir treffen uns im verschlafenen Dorf Randa, dessen malerische Holzhäuschen und die ruhige Atmosphäre einen starken Kontrast zu der bevorstehenden Herausforderung bilden. Die Gruppe besteht aus vier mutigen Seelen, alle bereit, ihre Grenzen zu testen und den höchsten Gipfel der Mischabel-Gruppe zu erklimmen."
+      },
+      {
+        "text": "Nach einer kurzen Besprechung der Route und einem letzten Check der Ausrüstung machen wir uns auf den Weg. Die Luft ist frisch und die Stimmung ist von Vorfreude geprägt. Wir wissen, dass der Aufstieg körperlich fordernd sein wird, aber die Aussicht auf das Panorama, das uns von oben erwartet, treibt uns an.\n\n"
+      },
+      {
+        "image": "assets/images/hike_start.jpg",
+        "image_description": "Ein kleines Dorf am Fuß des Berges im Morgenlicht, mit einer Gruppe von Wanderern, die sich auf den Aufstieg vorbereiten."
+      },
+      {
+        "title": "Der Aufstieg"
+      },
+      {
+        "text": "Die ersten Stunden des Aufstiegs sind geprägt von einem stetigen Anstieg durch dichte Wälder und über saftige Almwiesen. Das Rauschen eines nahen Flusses begleitet unsere Schritte, während wir höher und höher steigen. Bald lichtet sich der Wald, und wir treten auf eine Ebene aus, von der aus wir einen ersten Blick auf unser Ziel werfen können. Der Walliser Dom erhebt sich majestätisch über uns, seine Spitze wie ein Leuchtfeuer, das uns ruft."
+      },
+      {
+        "text": "Während wir weitersteigen, wird der Pfad steiniger und der Aufstieg anspruchsvoller. Wir passieren schroffe Klippen und überqueren schmale Grate. Die Luft wird dünner, und wir machen häufiger Pausen, um zu verschnaufen."
+      },
+      {
+        "image": "assets/images/hike_further.jpg",
+        "image_description": "Ein Blick auf den steilen, felsigen Pfad mit einer Seilschaft, die sich an einem schmalen Grat entlangbewegt, mit dem Walliser Dom im Hintergrund."
+      }
+    ]
+  }
+}
