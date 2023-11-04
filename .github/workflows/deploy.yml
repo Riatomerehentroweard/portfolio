@@ -1,23 +1,50 @@
-name: Build and Deploy
+name: Deploy Angular App to GitHub Pages
+
 on:
   push:
     branches:
-      - main
+      - main  # Set a branch to deploy
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Angular Deploy gh-pages Actions
-      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
-      with:
-        github_access_token: ${{ secrets.GITHUB_TOKEN }} # see the Configuration section for how you can create secrets
-        build_configuration: staging # The build environment for the app. please look configurations in your angular.json
-        base_href: /my-project/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
-        deploy_branch: gh-pages # The branch the action should deploy to.
-        angular_dist_build_folder: dist/my-project # The folder where your project is supposed to be after running ng build by the action.
+      - name: Checkout
+        uses: actions/checkout@v3
 
-permissions:
-  contents: write # Allow write permission to GITHUB_TOKEN to commit to deploy branch.
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Set this to the node version you are using
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
