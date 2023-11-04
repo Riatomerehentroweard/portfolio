@@ -21,6 +21,6 @@ export class BlogComponent {
   constructor(private http: HttpClient, private router: Router) {}
 
   navigateToArticle(articleId: string) {
-    void this.router.navigate([`/${articleId}`]);
+    void this.router.navigate([`article/${articleId}`]);
   }
 }
