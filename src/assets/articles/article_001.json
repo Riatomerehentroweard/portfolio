@@ -5,7 +5,7 @@
   "image": "dom.png",
   "content": {
     "title": "Besteigung des Walliser Doms",
-    "bg_img": "/assets/images/mountain_001.jpg",
+    "bg_img": "assets/images/mountain_001.jpg",
     "paragraphs": [
       {
         "title": "Vorbereitung und Anreise"
@@ -17,7 +17,7 @@
         "text": "Nach einer kurzen Besprechung der Route und einem letzten Check der Ausrüstung machen wir uns auf den Weg. Die Luft ist frisch und die Stimmung ist von Vorfreude geprägt. Wir wissen, dass der Aufstieg körperlich fordernd sein wird, aber die Aussicht auf das Panorama, das uns von oben erwartet, treibt uns an.\n\n"
       },
       {
-        "image": "/assets/images/hike_start.jpg",
+        "image": "assets/images/hike_start.jpg",
         "image_description": "Ein kleines Dorf am Fuß des Berges im Morgenlicht, mit einer Gruppe von Wanderern, die sich auf den Aufstieg vorbereiten."
       },
       {
@@ -30,7 +30,7 @@
         "text": "Während wir weitersteigen, wird der Pfad steiniger und der Aufstieg anspruchsvoller. Wir passieren schroffe Klippen und überqueren schmale Grate. Die Luft wird dünner, und wir machen häufiger Pausen, um zu verschnaufen."
       },
       {
-        "image": "/assets/images/hike_further.jpg",
+        "image": "assets/images/hike_further.jpg",
         "image_description": "Ein Blick auf den steilen, felsigen Pfad mit einer Seilschaft, die sich an einem schmalen Grat entlangbewegt, mit dem Walliser Dom im Hintergrund."
       }
     ]
