@@ -1,3 +1,20 @@
+.responsive-image {
+  background-image: url('/assets/images/blog_bg.jpg'); /* Path to your image */
+
+  /* Essential styles for responsiveness */
+  height: 100vh; /* Full height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Cover the entire width or height whichever is bigger */
+
+  /* Ensure proper scaling on all screens (optional but recommended) */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  box-shadow: 0px -20px 20px 0px black inset;
+}
+
 .content {
   color: white;
   padding-top: 5rem;
@@ -10,6 +27,9 @@
   width: 15rem;
   border-radius: 10px;
   overflow: hidden;
+  background: black;
+  box-shadow: 6px 7px 15px 0 rgba(0, 0, 0, 0.5);
+
 
   img {
     width: 15rem;

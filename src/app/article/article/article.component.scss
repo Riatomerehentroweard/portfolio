@@ -1,0 +1,32 @@
+.responsive-image {
+  background-image: url('/assets/images/article_bg.jpg'); /* Path to your image */
+
+  /* Essential styles for responsiveness */
+  height: 100vh; /* Full height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Cover the entire width or height whichever is bigger */
+
+  /* Ensure proper scaling on all screens (optional but recommended) */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  box-shadow: 0px -20px 20px 0px black inset;
+}
+
+.content {
+  margin-top: 25vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: calc(100% - 2rem);
+  min-height: 75vh;
+  padding: 0 1rem;
+  text-align: center;
+
+  @media (max-width: 699px) {
+    margin-top: 25vh;
+    min-height: 75vh;
+  }
+}
