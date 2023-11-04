@@ -24,6 +24,7 @@
 .card {
   cursor: pointer;
   margin-bottom: 2rem;
+  margin-right: 1rem;
   width: 15rem;
   border-radius: 10px;
   overflow: hidden;
@@ -39,9 +40,7 @@
   .card-body {
     padding: 1rem;
   }
-}
 
-.card {
   &__container {
     display: flex;
     justify-content: center;
