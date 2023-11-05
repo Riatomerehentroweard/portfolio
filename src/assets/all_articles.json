@@ -1,5 +1,11 @@
 [
   {
+    "id": "002",
+    "title": "Klone",
+    "description": "Der Klone in den Urner Alpen ist mit einer Höhe von 4546 m ü. M. der höchste Berg, der mit seiner kompletten Basis innerhalb der Schweiz liegt.",
+    "image": "dom.png"
+  },
+  {
     "id": "001",
     "title": "Dom",
     "description": "Der Dom in den Walliser Alpen ist mit einer Höhe von 4546 m ü. M. der höchste Berg, der mit seiner kompletten Basis innerhalb der Schweiz liegt.",

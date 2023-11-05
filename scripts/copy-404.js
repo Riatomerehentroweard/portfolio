@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the source and destination files
-const sourceFile = path.join(__dirname, '..', 'src', '404.html');
+const sourceFile = path.join(__dirname, '..', 'src', 'index.html');
 const destinationDir = path.join(__dirname, '..', 'dist', 'my-portfolio');
 const destinationFile = path.join(destinationDir, '404.html');
 
